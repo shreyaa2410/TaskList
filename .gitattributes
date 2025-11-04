@@ -1,0 +1,51 @@
+# IDE Settings
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+
+# Build artifacts
+target/
+build/
+*.jar
+*.war
+*.ear
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Log files
+*.log
+logs/
+
+# Environment-specific files
+.env
+application*.properties.example
+application*.yml.example
+# If you have specific local configuration files not meant for version control
+# application-local.properties
+# application-dev.yml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Maven/Gradle specific
+.gradle/
+.m2/repository/
+
+# Temporary files
+*.tmp
+*.swp
+*~
+.#*
+
+# Test reports and coverage
+test-reports/
+coverage/
